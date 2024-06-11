@@ -83,9 +83,19 @@ make
 - [汽车速度规划介绍](https://blog.csdn.net/weixin_42301220/article/details/125831886)
 
 
+### 决策控制
+- [PID实现轨迹跟踪](https://blog.csdn.net/weixin_42301220/article/details/124793474)
+- [PurePursuit实现轨迹跟踪](https://blog.csdn.net/weixin_42301220/article/details/124882144?spm=1001.2014.3001.5501)
+- [Stanley实现轨迹跟踪](https://blog.csdn.net/weixin_42301220/article/details/124899547)
+- [后轮位置反馈实现轨迹跟踪](https://blog.csdn.net/weixin_42301220/article/details/125003918?spm=1001.2014.3001.5501)
+- [LQR控制算法](https://blog.csdn.net/weixin_42301220/article/details/124542242)
+- [LQR控制实现轨迹跟踪](https://blog.csdn.net/weixin_42301220/article/details/125031348?spm=1001.2014.3001.5501)
+- [模型预测控制(MPC)实现轨迹跟踪](https://blog.csdn.net/weixin_42301220/article/details/124566369)
 
-
-
+### 预测
+- [学习卡尔曼滤波（一）——线性卡尔曼滤波](https://blog.csdn.net/weixin_42301220/article/details/124578094)
+- [学习卡尔曼滤波（二）——扩展卡尔曼滤波](https://blog.csdn.net/weixin_42301220/article/details/124605350)
+- [学习卡尔曼滤波（三）——无迹卡尔曼滤波](https://blog.csdn.net/weixin_42301220/article/details/124708187)
 
 
 
