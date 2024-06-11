@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/bezier_demo.dir/Bezier/BezierCurve.cpp.o CMakeFiles/bezier_demo.dir/Bezier/main.cpp.o -o bezier_demo  /usr/lib/x86_64-linux-gnu/libpython3.6m.so 

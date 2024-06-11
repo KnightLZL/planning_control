@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/astar_demo.dir/Astar/Astar.cpp.o CMakeFiles/astar_demo.dir/Astar/main.cpp.o -o astar_demo  /usr/lib/x86_64-linux-gnu/libpython3.6m.so 
