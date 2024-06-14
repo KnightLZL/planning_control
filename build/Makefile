@@ -291,6 +291,19 @@ pid_demo/fast:
 	$(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pid_demo.dir/build.make bin_control/CMakeFiles/pid_demo.dir/build
 .PHONY : pid_demo/fast
 
+#=============================================================================
+# Target rules for targets named pp_demo
+
+# Build rule for target.
+pp_demo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pp_demo
+.PHONY : pp_demo
+
+# fast build rule for target.
+pp_demo/fast:
+	$(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pp_demo.dir/build.make bin_control/CMakeFiles/pp_demo.dir/build
+.PHONY : pp_demo/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -335,6 +348,7 @@ help:
 	@echo "... dwa_demo"
 	@echo "... main"
 	@echo "... pid_demo"
+	@echo "... pp_demo"
 	@echo "... rrt_demo"
 	@echo "... rs_demo"
 	@echo "... main.o"
