@@ -65,15 +65,18 @@ CMAKE_BINARY_DIR = /home/lee/文档/02planning_control_auto/build
 # The main recursive "all" target.
 all: CMakeFiles/main.dir/all
 all: bin/all
+all: bin_control/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: bin/preinstall
+preinstall: bin_control/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/main.dir/clean
 clean: bin/clean
+clean: bin_control/clean
 .PHONY : clean
 
 #=============================================================================
@@ -104,6 +107,21 @@ bin/clean: bin/CMakeFiles/bezier_demo.dir/clean
 bin/clean: bin/CMakeFiles/b_spline_demo.dir/clean
 bin/clean: bin/CMakeFiles/apf_demo.dir/clean
 .PHONY : bin/clean
+
+#=============================================================================
+# Directory level rules for directory bin_control
+
+# Recursive "all" directory target.
+bin_control/all: bin_control/CMakeFiles/pid_demo.dir/all
+.PHONY : bin_control/all
+
+# Recursive "preinstall" directory target.
+bin_control/preinstall:
+.PHONY : bin_control/preinstall
+
+# Recursive "clean" directory target.
+bin_control/clean: bin_control/CMakeFiles/pid_demo.dir/clean
+.PHONY : bin_control/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/main.dir
@@ -164,7 +182,7 @@ bin/CMakeFiles/astar_demo.dir/clean:
 bin/CMakeFiles/rrt_demo.dir/all:
 	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/rrt_demo.dir/build.make bin/CMakeFiles/rrt_demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/rrt_demo.dir/build.make bin/CMakeFiles/rrt_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lee/文档/02planning_control_auto/build/CMakeFiles --progress-num=21,22,23 "Built target rrt_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lee/文档/02planning_control_auto/build/CMakeFiles --progress-num=24,25,26 "Built target rrt_demo"
 .PHONY : bin/CMakeFiles/rrt_demo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -216,7 +234,7 @@ bin/CMakeFiles/dubins_demo.dir/clean:
 bin/CMakeFiles/rs_demo.dir/all:
 	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/rs_demo.dir/build.make bin/CMakeFiles/rs_demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/rs_demo.dir/build.make bin/CMakeFiles/rs_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lee/文档/02planning_control_auto/build/CMakeFiles --progress-num=24,25,26 "Built target rs_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lee/文档/02planning_control_auto/build/CMakeFiles --progress-num=27,28,29 "Built target rs_demo"
 .PHONY : bin/CMakeFiles/rs_demo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -338,6 +356,32 @@ apf_demo: bin/CMakeFiles/apf_demo.dir/rule
 bin/CMakeFiles/apf_demo.dir/clean:
 	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/apf_demo.dir/build.make bin/CMakeFiles/apf_demo.dir/clean
 .PHONY : bin/CMakeFiles/apf_demo.dir/clean
+
+#=============================================================================
+# Target rules for target bin_control/CMakeFiles/pid_demo.dir
+
+# All Build rule for target.
+bin_control/CMakeFiles/pid_demo.dir/all:
+	$(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pid_demo.dir/build.make bin_control/CMakeFiles/pid_demo.dir/depend
+	$(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pid_demo.dir/build.make bin_control/CMakeFiles/pid_demo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lee/文档/02planning_control_auto/build/CMakeFiles --progress-num=21,22,23 "Built target pid_demo"
+.PHONY : bin_control/CMakeFiles/pid_demo.dir/all
+
+# Build rule for subdir invocation for target.
+bin_control/CMakeFiles/pid_demo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lee/文档/02planning_control_auto/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin_control/CMakeFiles/pid_demo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lee/文档/02planning_control_auto/build/CMakeFiles 0
+.PHONY : bin_control/CMakeFiles/pid_demo.dir/rule
+
+# Convenience name for target.
+pid_demo: bin_control/CMakeFiles/pid_demo.dir/rule
+.PHONY : pid_demo
+
+# clean rule for target.
+bin_control/CMakeFiles/pid_demo.dir/clean:
+	$(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pid_demo.dir/build.make bin_control/CMakeFiles/pid_demo.dir/clean
+.PHONY : bin_control/CMakeFiles/pid_demo.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

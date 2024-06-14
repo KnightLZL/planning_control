@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lee/文档/02planning_control_auto/build/CMakeFiles /home/lee/文档/02planning_control_auto/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /home/lee/文档/02planning_control_auto/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lee/文档/02planning_control_auto/build/CMakeFiles /home/lee/文档/02planning_control_auto/build/bin_control//CMakeFiles/progress.marks
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin_control/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lee/文档/02planning_control_auto/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin_control/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,172 +148,80 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin_control/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin_control/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/lee/文档/02planning_control_auto/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named main
+# Convenience name for target.
+bin_control/CMakeFiles/pid_demo.dir/rule:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin_control/CMakeFiles/pid_demo.dir/rule
+.PHONY : bin_control/CMakeFiles/pid_demo.dir/rule
 
-# Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
-
-# fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
-
-#=============================================================================
-# Target rules for targets named astar_demo
-
-# Build rule for target.
-astar_demo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 astar_demo
-.PHONY : astar_demo
-
-# fast build rule for target.
-astar_demo/fast:
-	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/astar_demo.dir/build.make bin/CMakeFiles/astar_demo.dir/build
-.PHONY : astar_demo/fast
-
-#=============================================================================
-# Target rules for targets named rrt_demo
-
-# Build rule for target.
-rrt_demo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rrt_demo
-.PHONY : rrt_demo
-
-# fast build rule for target.
-rrt_demo/fast:
-	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/rrt_demo.dir/build.make bin/CMakeFiles/rrt_demo.dir/build
-.PHONY : rrt_demo/fast
-
-#=============================================================================
-# Target rules for targets named dubins_demo
-
-# Build rule for target.
-dubins_demo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dubins_demo
-.PHONY : dubins_demo
-
-# fast build rule for target.
-dubins_demo/fast:
-	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/dubins_demo.dir/build.make bin/CMakeFiles/dubins_demo.dir/build
-.PHONY : dubins_demo/fast
-
-#=============================================================================
-# Target rules for targets named rs_demo
-
-# Build rule for target.
-rs_demo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rs_demo
-.PHONY : rs_demo
-
-# fast build rule for target.
-rs_demo/fast:
-	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/rs_demo.dir/build.make bin/CMakeFiles/rs_demo.dir/build
-.PHONY : rs_demo/fast
-
-#=============================================================================
-# Target rules for targets named dwa_demo
-
-# Build rule for target.
-dwa_demo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dwa_demo
-.PHONY : dwa_demo
-
-# fast build rule for target.
-dwa_demo/fast:
-	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/dwa_demo.dir/build.make bin/CMakeFiles/dwa_demo.dir/build
-.PHONY : dwa_demo/fast
-
-#=============================================================================
-# Target rules for targets named bezier_demo
-
-# Build rule for target.
-bezier_demo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bezier_demo
-.PHONY : bezier_demo
-
-# fast build rule for target.
-bezier_demo/fast:
-	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/bezier_demo.dir/build.make bin/CMakeFiles/bezier_demo.dir/build
-.PHONY : bezier_demo/fast
-
-#=============================================================================
-# Target rules for targets named b_spline_demo
-
-# Build rule for target.
-b_spline_demo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 b_spline_demo
-.PHONY : b_spline_demo
-
-# fast build rule for target.
-b_spline_demo/fast:
-	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/b_spline_demo.dir/build.make bin/CMakeFiles/b_spline_demo.dir/build
-.PHONY : b_spline_demo/fast
-
-#=============================================================================
-# Target rules for targets named apf_demo
-
-# Build rule for target.
-apf_demo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apf_demo
-.PHONY : apf_demo
-
-# fast build rule for target.
-apf_demo/fast:
-	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/apf_demo.dir/build.make bin/CMakeFiles/apf_demo.dir/build
-.PHONY : apf_demo/fast
-
-#=============================================================================
-# Target rules for targets named pid_demo
-
-# Build rule for target.
-pid_demo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pid_demo
+# Convenience name for target.
+pid_demo: bin_control/CMakeFiles/pid_demo.dir/rule
 .PHONY : pid_demo
 
 # fast build rule for target.
 pid_demo/fast:
-	$(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pid_demo.dir/build.make bin_control/CMakeFiles/pid_demo.dir/build
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pid_demo.dir/build.make bin_control/CMakeFiles/pid_demo.dir/build
 .PHONY : pid_demo/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+PID/PID.o: PID/PID.cpp.o
+.PHONY : PID/PID.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
-.PHONY : main.cpp.o
+PID/PID.cpp.o:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pid_demo.dir/build.make bin_control/CMakeFiles/pid_demo.dir/PID/PID.cpp.o
+.PHONY : PID/PID.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+PID/PID.i: PID/PID.cpp.i
+.PHONY : PID/PID.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
-.PHONY : main.cpp.i
+PID/PID.cpp.i:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pid_demo.dir/build.make bin_control/CMakeFiles/pid_demo.dir/PID/PID.cpp.i
+.PHONY : PID/PID.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+PID/PID.s: PID/PID.cpp.s
+.PHONY : PID/PID.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
-.PHONY : main.cpp.s
+PID/PID.cpp.s:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pid_demo.dir/build.make bin_control/CMakeFiles/pid_demo.dir/PID/PID.cpp.s
+.PHONY : PID/PID.cpp.s
+
+PID/main.o: PID/main.cpp.o
+.PHONY : PID/main.o
+
+# target to build an object file
+PID/main.cpp.o:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pid_demo.dir/build.make bin_control/CMakeFiles/pid_demo.dir/PID/main.cpp.o
+.PHONY : PID/main.cpp.o
+
+PID/main.i: PID/main.cpp.i
+.PHONY : PID/main.i
+
+# target to preprocess a source file
+PID/main.cpp.i:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pid_demo.dir/build.make bin_control/CMakeFiles/pid_demo.dir/PID/main.cpp.i
+.PHONY : PID/main.cpp.i
+
+PID/main.s: PID/main.cpp.s
+.PHONY : PID/main.s
+
+# target to generate assembly for a file
+PID/main.cpp.s:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pid_demo.dir/build.make bin_control/CMakeFiles/pid_demo.dir/PID/main.cpp.s
+.PHONY : PID/main.cpp.s
 
 # Help Target
 help:
@@ -327,19 +235,13 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... apf_demo"
-	@echo "... astar_demo"
-	@echo "... b_spline_demo"
-	@echo "... bezier_demo"
-	@echo "... dubins_demo"
-	@echo "... dwa_demo"
-	@echo "... main"
 	@echo "... pid_demo"
-	@echo "... rrt_demo"
-	@echo "... rs_demo"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... PID/PID.o"
+	@echo "... PID/PID.i"
+	@echo "... PID/PID.s"
+	@echo "... PID/main.o"
+	@echo "... PID/main.i"
+	@echo "... PID/main.s"
 .PHONY : help
 
 
@@ -351,6 +253,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/lee/文档/02planning_control_auto/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

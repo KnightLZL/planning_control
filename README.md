@@ -83,7 +83,7 @@ make
 - [汽车速度规划介绍](https://blog.csdn.net/weixin_42301220/article/details/125831886)
 
 
-### 决策控制
+### 跟踪控制
 - [PID实现轨迹跟踪](https://blog.csdn.net/weixin_42301220/article/details/124793474)
 - [PurePursuit实现轨迹跟踪](https://blog.csdn.net/weixin_42301220/article/details/124882144?spm=1001.2014.3001.5501)
 - [Stanley实现轨迹跟踪](https://blog.csdn.net/weixin_42301220/article/details/124899547)

@@ -38,4 +38,6 @@ target_link_libraries(main PRIVATE planning_control_auto)
 
 
 add_subdirectory(planning bin)
-# add_subdirectory(tracking bin_tracking)
+
+#设置生成可执行文件的保存路径
+add_subdirectory(control bin_control)

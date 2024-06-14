@@ -222,13 +222,13 @@ plannin_control_auto_IS_TOP_LEVEL:STATIC=OFF
 plannin_control_auto_SOURCE_DIR:STATIC=/home/lee/文档/02planning_control_auto/planning
 
 //Value Computed by CMake
-planning_control_auto_BINARY_DIR:STATIC=/home/lee/文档/02planning_control_auto/build
+planning_control_auto_BINARY_DIR:STATIC=/home/lee/文档/02planning_control_auto/build/bin_control
 
 //Value Computed by CMake
-planning_control_auto_IS_TOP_LEVEL:STATIC=ON
+planning_control_auto_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-planning_control_auto_SOURCE_DIR:STATIC=/home/lee/文档/02planning_control_auto
+planning_control_auto_SOURCE_DIR:STATIC=/home/lee/文档/02planning_control_auto/control
 
 
 ########################
@@ -335,7 +335,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
