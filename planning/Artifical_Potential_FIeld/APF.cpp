@@ -2,7 +2,7 @@
  * 人工势场法
 */
 
-#include "APF.hpp"
+#include "APF.h"
 
 APF::APF(double etaAtt, double etaRepOb, double etaRepEdge, double dmax, double n) : Eta_att(etaAtt), Eta_rep_ob(etaRepOb), Eta_rep_edge(etaRepEdge),
             d_max(dmax), n(n) {};

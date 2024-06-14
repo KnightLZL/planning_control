@@ -1,7 +1,7 @@
 bin/CMakeFiles/dwa_demo.dir/Dynamic_Window_Approach/DWA.cpp.o: \
  /home/lee/文档/02planning_control_auto/planning/Dynamic_Window_Approach/DWA.cpp \
  /usr/include/stdc-predef.h \
- /home/lee/文档/02planning_control_auto/planning/Dynamic_Window_Approach/DWA.hpp \
+ /home/lee/文档/02planning_control_auto/planning/Dynamic_Window_Approach/DWA.h \
  /usr/include/c++/7/iostream \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \

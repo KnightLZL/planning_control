@@ -2,7 +2,7 @@
  * @date 2024/5/1
 */
 
-#include "RRT.hpp"
+#include "RRT.h"
 #include "../utils/geometry_utils.hpp"
 
 RRT::Node::Node(double x, double y) : x(x), y(y), parent(nullptr), cost(0) {};

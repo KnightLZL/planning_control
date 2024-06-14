@@ -2,7 +2,7 @@
  * @date 2024/4/19
 */
 
-#include "Astar.hpp"
+#include "Astar.h"
 
 Astar::Node::Node(double x, double y, float cost, double parentIndex) : x(x), y(y), cost(cost), parent_index(parentIndex) {}
 

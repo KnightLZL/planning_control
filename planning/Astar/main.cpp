@@ -2,7 +2,7 @@
  * @date 2024/4/30
  * 测试Astar算法
 */
-#include "Astar.hpp"
+#include "Astar.h"
 
 
 int main(){

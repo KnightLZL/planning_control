@@ -2,7 +2,7 @@
  * @date 2024.6.10
 */
 
-#include "BezierCurve.hpp"
+#include "BezierCurve.h"
 
 /**
  * 阶乘

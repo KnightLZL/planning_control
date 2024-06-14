@@ -1,7 +1,7 @@
 bin/CMakeFiles/astar_demo.dir/Astar/main.cpp.o: \
  /home/lee/文档/02planning_control_auto/planning/Astar/main.cpp \
  /usr/include/stdc-predef.h \
- /home/lee/文档/02planning_control_auto/planning/Astar/Astar.hpp \
+ /home/lee/文档/02planning_control_auto/planning/Astar/Astar.h \
  /usr/include/c++/7/iostream \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \

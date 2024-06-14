@@ -1,4 +1,4 @@
-#include "RRT.hpp"
+#include "RRT.h"
 
 int main(){
     vector<vector<double>>obstacle_list{

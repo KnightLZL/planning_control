@@ -2,7 +2,7 @@
  * @date 2024.6.9
 */
 
-#include "ReedsSheep.hpp"
+#include "ReedsSheep.h"
 
 int main(){
     vector<double>start{1.0,-4.0,(double)20/180*PI};

@@ -2,7 +2,7 @@
  * @date 2024.6.14
 */
 
-#include "PID.hpp"
+#include "PID.h"
 
 
 PID_controller::PID_controller(double kp, double ki, double kd, double target, double upper, double lower) {

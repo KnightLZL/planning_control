@@ -12,7 +12,11 @@ find_package(Eigen3 REQUIRED)
 include_directories(${EIGEN3_INCLUDE_DIR})
 
 # PID
-add_executable(pid_demo PID/main.cpp PID/PID.cpp utils/KinematicModel.hpp)
+add_executable(pid_demo PID/main.cpp PID/PID.cpp)
 target_link_libraries(pid_demo PRIVATE planning_control_auto)
+
+# PurePursuit
+add_executable(pp_demo Pure_pursult/PurePursuit.cpp Pure_pursult/main.cpp)
+target_link_libraries(pp_demo PRIVATE planning_control_auto)
 
 

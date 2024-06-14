@@ -1,7 +1,7 @@
 bin/CMakeFiles/bezier_demo.dir/Bezier/BezierCurve.cpp.o: \
  /home/lee/文档/02planning_control_auto/planning/Bezier/BezierCurve.cpp \
  /usr/include/stdc-predef.h \
- /home/lee/文档/02planning_control_auto/planning/Bezier/BezierCurve.hpp \
+ /home/lee/文档/02planning_control_auto/planning/Bezier/BezierCurve.h \
  /usr/include/c++/7/iostream \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \

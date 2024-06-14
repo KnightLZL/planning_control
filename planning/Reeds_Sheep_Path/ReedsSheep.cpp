@@ -2,7 +2,7 @@
  * @date 2024.6.9
 */
 
-#include "ReedsSheep.hpp"
+#include "ReedsSheep.h"
 
 // 对角度进行周期限制，theta对2pi取模，限制到【0，2pi】符合极坐标系，周期范围
 double ReedsShepp::mod2Pi(double theta){

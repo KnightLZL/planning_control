@@ -175,6 +175,20 @@ pid_demo/fast:
 	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pid_demo.dir/build.make bin_control/CMakeFiles/pid_demo.dir/build
 .PHONY : pid_demo/fast
 
+# Convenience name for target.
+bin_control/CMakeFiles/pp_demo.dir/rule:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin_control/CMakeFiles/pp_demo.dir/rule
+.PHONY : bin_control/CMakeFiles/pp_demo.dir/rule
+
+# Convenience name for target.
+pp_demo: bin_control/CMakeFiles/pp_demo.dir/rule
+.PHONY : pp_demo
+
+# fast build rule for target.
+pp_demo/fast:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pp_demo.dir/build.make bin_control/CMakeFiles/pp_demo.dir/build
+.PHONY : pp_demo/fast
+
 PID/PID.o: PID/PID.cpp.o
 .PHONY : PID/PID.o
 
@@ -223,6 +237,54 @@ PID/main.cpp.s:
 	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pid_demo.dir/build.make bin_control/CMakeFiles/pid_demo.dir/PID/main.cpp.s
 .PHONY : PID/main.cpp.s
 
+Pure_pursult/PurePursuit.o: Pure_pursult/PurePursuit.cpp.o
+.PHONY : Pure_pursult/PurePursuit.o
+
+# target to build an object file
+Pure_pursult/PurePursuit.cpp.o:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pp_demo.dir/build.make bin_control/CMakeFiles/pp_demo.dir/Pure_pursult/PurePursuit.cpp.o
+.PHONY : Pure_pursult/PurePursuit.cpp.o
+
+Pure_pursult/PurePursuit.i: Pure_pursult/PurePursuit.cpp.i
+.PHONY : Pure_pursult/PurePursuit.i
+
+# target to preprocess a source file
+Pure_pursult/PurePursuit.cpp.i:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pp_demo.dir/build.make bin_control/CMakeFiles/pp_demo.dir/Pure_pursult/PurePursuit.cpp.i
+.PHONY : Pure_pursult/PurePursuit.cpp.i
+
+Pure_pursult/PurePursuit.s: Pure_pursult/PurePursuit.cpp.s
+.PHONY : Pure_pursult/PurePursuit.s
+
+# target to generate assembly for a file
+Pure_pursult/PurePursuit.cpp.s:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pp_demo.dir/build.make bin_control/CMakeFiles/pp_demo.dir/Pure_pursult/PurePursuit.cpp.s
+.PHONY : Pure_pursult/PurePursuit.cpp.s
+
+Pure_pursult/main.o: Pure_pursult/main.cpp.o
+.PHONY : Pure_pursult/main.o
+
+# target to build an object file
+Pure_pursult/main.cpp.o:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pp_demo.dir/build.make bin_control/CMakeFiles/pp_demo.dir/Pure_pursult/main.cpp.o
+.PHONY : Pure_pursult/main.cpp.o
+
+Pure_pursult/main.i: Pure_pursult/main.cpp.i
+.PHONY : Pure_pursult/main.i
+
+# target to preprocess a source file
+Pure_pursult/main.cpp.i:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pp_demo.dir/build.make bin_control/CMakeFiles/pp_demo.dir/Pure_pursult/main.cpp.i
+.PHONY : Pure_pursult/main.cpp.i
+
+Pure_pursult/main.s: Pure_pursult/main.cpp.s
+.PHONY : Pure_pursult/main.s
+
+# target to generate assembly for a file
+Pure_pursult/main.cpp.s:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pp_demo.dir/build.make bin_control/CMakeFiles/pp_demo.dir/Pure_pursult/main.cpp.s
+.PHONY : Pure_pursult/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -236,12 +298,19 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... pid_demo"
+	@echo "... pp_demo"
 	@echo "... PID/PID.o"
 	@echo "... PID/PID.i"
 	@echo "... PID/PID.s"
 	@echo "... PID/main.o"
 	@echo "... PID/main.i"
 	@echo "... PID/main.s"
+	@echo "... Pure_pursult/PurePursuit.o"
+	@echo "... Pure_pursult/PurePursuit.i"
+	@echo "... Pure_pursult/PurePursuit.s"
+	@echo "... Pure_pursult/main.o"
+	@echo "... Pure_pursult/main.i"
+	@echo "... Pure_pursult/main.s"
 .PHONY : help
 
 

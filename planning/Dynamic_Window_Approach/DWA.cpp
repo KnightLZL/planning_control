@@ -2,7 +2,7 @@
  * @date 2024.6.10
 */
 
-#include "DWA.hpp"
+#include "DWA.h"
 
 // DWA构造函数 + 赋值
 DWA::DWA(double dt, double vMin, double vMax, double wMin, double wMax, double predictTime, double aVmax, double aWmax, double vSample, double wSample, double alpha, double beta, double gamma, double radius, double judgeDistance): dt(dt), v_min(vMin), v_max(vMax), w_min(wMin), w_max(wMax), predict_time(predictTime), a_vmax(aVmax),
@@ -74,7 +74,7 @@ vector<double> DWA::calDynamicWindowVel(double v, double w,VectorXd state, vecto
 double DWA::_dist(VectorXd state, vector<Vector2d> obstacle) {
     double min_dist = 100000;
     for(Vector2d obs:obstacle){
-        //state.head(2)表示机器人状态向量中的前两个元素，即机器人的x和y坐标。然后，(obs-state.head(2))计算了障碍物位置与机器人位置之间的向量差。最后，.norm()方法计算了这个向量的二范数，即欧氏距离。这行代码的作用是计算机器人当前位置与障碍物位置之间的距离，用于确定最小距离。这样的距离计算方法在路径规划和避障算法中经常被使用。
+        //state.head(2)表示机器人状态向量中的前两个元素，即机器人的x和y坐标。然后，(obs-state.head(2))计算了障碍物位置与机器人位置之间的向量差。最后，.norm()方法计算了这个向量的二范数，即欧氏距离。这行代码的作用是计算机器人当前位置与障碍物位置之间的距离，用于确定最小距离。这样的距-离计算方法在路径规划和避障算法中经常被使用。
         double distance = (obs-state.head(2)).norm();
         min_dist = distance>min_dist?min_dist:distance;
     }

@@ -2,7 +2,7 @@
  * PID 控制算法
 */
 
-#include "PID.hpp"
+#include "PID.h"
 #include "../utils/KinematicModel.hpp"  //车辆运动学模型
 #include "../../matplotlibcpp.h"
 #include <algorithm>
@@ -68,8 +68,8 @@ int main(){
         double l_d = sqrt(pow(refer_path[min_ind][0] - robot_state[0], 2) + pow(refer_path[min_ind][1] - robot_state[1],2));
         
         double theta_e = alpha - ugv.psi;
-        double e_y = -l_d * sin(theta_e);  //计算横向误差
-        double delta_f = PID.calOutput(e_y); //计算控制量 车轮转角
+        double e_y = l_d * sin(theta_e);  //计算横向误差.
+        double delta_f = PID.calOutput(-e_y); //计算控制量 车轮转角，输入的误差要和实际相反，就是反馈控制
 
         // 更新状态
         ugv.updateState(0, delta_f);

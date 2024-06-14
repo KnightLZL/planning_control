@@ -2,7 +2,7 @@
  * @date 2024.6.10
 */
 
-#include "BSpline.hpp"
+#include "BSpline.h"
 
 
 

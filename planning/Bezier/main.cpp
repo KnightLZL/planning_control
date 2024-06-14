@@ -1,5 +1,5 @@
 
-#include "BezierCurve.hpp"
+#include "BezierCurve.h"
 #include "../../matplotlibcpp.h"
 namespace plt = matplotlibcpp;
 

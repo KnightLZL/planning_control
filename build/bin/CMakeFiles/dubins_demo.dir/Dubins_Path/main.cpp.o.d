@@ -1,7 +1,7 @@
 bin/CMakeFiles/dubins_demo.dir/Dubins_Path/main.cpp.o: \
  /home/lee/文档/02planning_control_auto/planning/Dubins_Path/main.cpp \
  /usr/include/stdc-predef.h \
- /home/lee/文档/02planning_control_auto/planning/Dubins_Path/Dubins.hpp \
+ /home/lee/文档/02planning_control_auto/planning/Dubins_Path/Dubins.h \
  /usr/include/c++/7/iostream \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \

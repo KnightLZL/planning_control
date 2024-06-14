@@ -225,7 +225,7 @@ bin/CMakeFiles/dwa_demo.dir/Dynamic_Window_Approach/main.cpp.o: \
  /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/istream \
  /usr/include/c++/7/bits/istream.tcc /usr/include/c++/7/functional \
  /usr/include/c++/7/bits/std_function.h /usr/include/c++/7/bits/refwrap.h \
- /home/lee/文档/02planning_control_auto/planning/Dynamic_Window_Approach/DWA.hpp \
+ /home/lee/文档/02planning_control_auto/planning/Dynamic_Window_Approach/DWA.h \
  /usr/local/include/eigen3/Eigen/Dense \
  /usr/local/include/eigen3/Eigen/Core \
  /usr/local/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \

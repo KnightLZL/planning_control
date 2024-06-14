@@ -1,7 +1,7 @@
 bin_control/CMakeFiles/pid_demo.dir/PID/main.cpp.o: \
  /home/lee/文档/02planning_control_auto/control/PID/main.cpp \
  /usr/include/stdc-predef.h \
- /home/lee/文档/02planning_control_auto/control/PID/PID.hpp \
+ /home/lee/文档/02planning_control_auto/control/PID/PID.h \
  /home/lee/文档/02planning_control_auto/control/PID/../utils/KinematicModel.hpp \
  /usr/include/c++/7/iostream \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \

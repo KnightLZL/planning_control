@@ -1,5 +1,5 @@
 
-#include "BSpline.hpp"
+#include "BSpline.h"
 #include "../../matplotlibcpp.h"
 namespace plt = matplotlibcpp;
 

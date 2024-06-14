@@ -20,6 +20,7 @@
 /home/lee/文档/02planning_control_auto/build/bin/CMakeFiles/install/local.dir
 /home/lee/文档/02planning_control_auto/build/bin/CMakeFiles/install/strip.dir
 /home/lee/文档/02planning_control_auto/build/bin_control/CMakeFiles/pid_demo.dir
+/home/lee/文档/02planning_control_auto/build/bin_control/CMakeFiles/pp_demo.dir
 /home/lee/文档/02planning_control_auto/build/bin_control/CMakeFiles/edit_cache.dir
 /home/lee/文档/02planning_control_auto/build/bin_control/CMakeFiles/rebuild_cache.dir
 /home/lee/文档/02planning_control_auto/build/bin_control/CMakeFiles/list_install_components.dir
