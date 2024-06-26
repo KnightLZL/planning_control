@@ -11,8 +11,8 @@ MyReferencePath::MyReferencePath() {
     // 生成参考轨迹
     for (int i = 0; i < 1000; i++) {
         refer_path[i][0] = 0.1 * i;
-        refer_path[i][1] = 2 * sin(refer_path[i][0] / 3.0) + 2.5 * cos(refer_path[i][0] / 2.0);
-
+        // refer_path[i][1] = 2 * sin(refer_path[i][0] / 3.0) + 2.5 * cos(refer_path[i][0] / 2.0);
+        refer_path[i][1] = 2 * (refer_path[i][0] / 3.0) + 2.5 * (refer_path[i][0] / 2.0);
         refer_x.push_back(refer_path[i][0]);
         refer_y.push_back(refer_path[i][1]);
     }

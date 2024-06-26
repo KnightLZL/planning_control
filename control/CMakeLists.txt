@@ -11,6 +11,8 @@ find_package(Eigen3 REQUIRED)
 # 将找到的EIGEN3头文件目录添加到编译器的包含路径中
 include_directories(${EIGEN3_INCLUDE_DIR})
 
+find_package(OsqpEigen REQUIRED)  #需要找到OSQPeigen
+
 # PID
 add_executable(pid_demo PID/main.cpp PID/PID.cpp)
 target_link_libraries(pid_demo PRIVATE planning_control_auto)
@@ -26,3 +28,7 @@ target_link_libraries(stanely_demo PRIVATE planning_control_auto)
 #lqr
 add_executable(lqr_demo LQR/LQR.cpp LQR/main.cpp utils/MyReferencePath.cpp)
 target_link_libraries(lqr_demo PRIVATE planning_control_auto)
+
+# mpc
+add_executable(mpc_demo MPC/mpc.cpp MPC/main.cpp utils/MyReferencePath.cpp)
+target_link_libraries(mpc_demo PRIVATE planning_control_auto OsqpEigen::OsqpEigen) #需要链接到Osqpeigen

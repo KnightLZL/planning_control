@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/mpc_demo.dir/MPC/mpc.cpp.o CMakeFiles/mpc_demo.dir/MPC/main.cpp.o CMakeFiles/mpc_demo.dir/utils/MyReferencePath.cpp.o -o mpc_demo  -Wl,-rpath,/usr/local/lib /usr/local/lib/libOsqpEigen.so.0.7.0 /usr/lib/x86_64-linux-gnu/libpython3.6m.so /usr/local/lib/libosqp.so 

@@ -217,6 +217,20 @@ lqr_demo/fast:
 	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/lqr_demo.dir/build.make bin_control/CMakeFiles/lqr_demo.dir/build
 .PHONY : lqr_demo/fast
 
+# Convenience name for target.
+bin_control/CMakeFiles/mpc_demo.dir/rule:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin_control/CMakeFiles/mpc_demo.dir/rule
+.PHONY : bin_control/CMakeFiles/mpc_demo.dir/rule
+
+# Convenience name for target.
+mpc_demo: bin_control/CMakeFiles/mpc_demo.dir/rule
+.PHONY : mpc_demo
+
+# fast build rule for target.
+mpc_demo/fast:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/mpc_demo.dir/build.make bin_control/CMakeFiles/mpc_demo.dir/build
+.PHONY : mpc_demo/fast
+
 LQR/LQR.o: LQR/LQR.cpp.o
 .PHONY : LQR/LQR.o
 
@@ -264,6 +278,54 @@ LQR/main.s: LQR/main.cpp.s
 LQR/main.cpp.s:
 	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/lqr_demo.dir/build.make bin_control/CMakeFiles/lqr_demo.dir/LQR/main.cpp.s
 .PHONY : LQR/main.cpp.s
+
+MPC/main.o: MPC/main.cpp.o
+.PHONY : MPC/main.o
+
+# target to build an object file
+MPC/main.cpp.o:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/mpc_demo.dir/build.make bin_control/CMakeFiles/mpc_demo.dir/MPC/main.cpp.o
+.PHONY : MPC/main.cpp.o
+
+MPC/main.i: MPC/main.cpp.i
+.PHONY : MPC/main.i
+
+# target to preprocess a source file
+MPC/main.cpp.i:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/mpc_demo.dir/build.make bin_control/CMakeFiles/mpc_demo.dir/MPC/main.cpp.i
+.PHONY : MPC/main.cpp.i
+
+MPC/main.s: MPC/main.cpp.s
+.PHONY : MPC/main.s
+
+# target to generate assembly for a file
+MPC/main.cpp.s:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/mpc_demo.dir/build.make bin_control/CMakeFiles/mpc_demo.dir/MPC/main.cpp.s
+.PHONY : MPC/main.cpp.s
+
+MPC/mpc.o: MPC/mpc.cpp.o
+.PHONY : MPC/mpc.o
+
+# target to build an object file
+MPC/mpc.cpp.o:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/mpc_demo.dir/build.make bin_control/CMakeFiles/mpc_demo.dir/MPC/mpc.cpp.o
+.PHONY : MPC/mpc.cpp.o
+
+MPC/mpc.i: MPC/mpc.cpp.i
+.PHONY : MPC/mpc.i
+
+# target to preprocess a source file
+MPC/mpc.cpp.i:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/mpc_demo.dir/build.make bin_control/CMakeFiles/mpc_demo.dir/MPC/mpc.cpp.i
+.PHONY : MPC/mpc.cpp.i
+
+MPC/mpc.s: MPC/mpc.cpp.s
+.PHONY : MPC/mpc.s
+
+# target to generate assembly for a file
+MPC/mpc.cpp.s:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/mpc_demo.dir/build.make bin_control/CMakeFiles/mpc_demo.dir/MPC/mpc.cpp.s
+.PHONY : MPC/mpc.cpp.s
 
 PID/PID.o: PID/PID.cpp.o
 .PHONY : PID/PID.o
@@ -415,6 +477,7 @@ utils/MyReferencePath.o: utils/MyReferencePath.cpp.o
 # target to build an object file
 utils/MyReferencePath.cpp.o:
 	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/lqr_demo.dir/build.make bin_control/CMakeFiles/lqr_demo.dir/utils/MyReferencePath.cpp.o
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/mpc_demo.dir/build.make bin_control/CMakeFiles/mpc_demo.dir/utils/MyReferencePath.cpp.o
 .PHONY : utils/MyReferencePath.cpp.o
 
 utils/MyReferencePath.i: utils/MyReferencePath.cpp.i
@@ -423,6 +486,7 @@ utils/MyReferencePath.i: utils/MyReferencePath.cpp.i
 # target to preprocess a source file
 utils/MyReferencePath.cpp.i:
 	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/lqr_demo.dir/build.make bin_control/CMakeFiles/lqr_demo.dir/utils/MyReferencePath.cpp.i
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/mpc_demo.dir/build.make bin_control/CMakeFiles/mpc_demo.dir/utils/MyReferencePath.cpp.i
 .PHONY : utils/MyReferencePath.cpp.i
 
 utils/MyReferencePath.s: utils/MyReferencePath.cpp.s
@@ -431,6 +495,7 @@ utils/MyReferencePath.s: utils/MyReferencePath.cpp.s
 # target to generate assembly for a file
 utils/MyReferencePath.cpp.s:
 	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/lqr_demo.dir/build.make bin_control/CMakeFiles/lqr_demo.dir/utils/MyReferencePath.cpp.s
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/mpc_demo.dir/build.make bin_control/CMakeFiles/mpc_demo.dir/utils/MyReferencePath.cpp.s
 .PHONY : utils/MyReferencePath.cpp.s
 
 # Help Target
@@ -446,6 +511,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... lqr_demo"
+	@echo "... mpc_demo"
 	@echo "... pid_demo"
 	@echo "... pp_demo"
 	@echo "... stanely_demo"
@@ -455,6 +521,12 @@ help:
 	@echo "... LQR/main.o"
 	@echo "... LQR/main.i"
 	@echo "... LQR/main.s"
+	@echo "... MPC/main.o"
+	@echo "... MPC/main.i"
+	@echo "... MPC/main.s"
+	@echo "... MPC/mpc.o"
+	@echo "... MPC/mpc.i"
+	@echo "... MPC/mpc.s"
 	@echo "... PID/PID.o"
 	@echo "... PID/PID.i"
 	@echo "... PID/PID.s"

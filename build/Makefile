@@ -330,6 +330,19 @@ lqr_demo/fast:
 	$(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/lqr_demo.dir/build.make bin_control/CMakeFiles/lqr_demo.dir/build
 .PHONY : lqr_demo/fast
 
+#=============================================================================
+# Target rules for targets named mpc_demo
+
+# Build rule for target.
+mpc_demo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mpc_demo
+.PHONY : mpc_demo
+
+# fast build rule for target.
+mpc_demo/fast:
+	$(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/mpc_demo.dir/build.make bin_control/CMakeFiles/mpc_demo.dir/build
+.PHONY : mpc_demo/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -374,6 +387,7 @@ help:
 	@echo "... dwa_demo"
 	@echo "... lqr_demo"
 	@echo "... main"
+	@echo "... mpc_demo"
 	@echo "... pid_demo"
 	@echo "... pp_demo"
 	@echo "... rrt_demo"
