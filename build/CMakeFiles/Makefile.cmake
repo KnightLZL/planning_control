@@ -65,4 +65,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "bin/CMakeFiles/apf_demo.dir/DependInfo.cmake"
   "bin_control/CMakeFiles/pid_demo.dir/DependInfo.cmake"
   "bin_control/CMakeFiles/pp_demo.dir/DependInfo.cmake"
+  "bin_control/CMakeFiles/stanely_demo.dir/DependInfo.cmake"
+  "bin_control/CMakeFiles/lqr_demo.dir/DependInfo.cmake"
   )

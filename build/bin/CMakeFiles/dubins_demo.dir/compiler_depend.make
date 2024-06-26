@@ -3,7 +3,7 @@
 
 bin/CMakeFiles/dubins_demo.dir/Dubins_Path/Dubins.cpp.o: ../planning/Dubins_Path/Dubins.cpp \
   /usr/include/stdc-predef.h \
-  ../planning/Dubins_Path/Dubins.hpp \
+  ../planning/Dubins_Path/Dubins.h \
   /usr/include/c++/7/iostream \
   /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \
@@ -492,7 +492,7 @@ bin/CMakeFiles/dubins_demo.dir/Dubins_Path/Dubins.cpp.o: ../planning/Dubins_Path
 
 bin/CMakeFiles/dubins_demo.dir/Dubins_Path/main.cpp.o: ../planning/Dubins_Path/main.cpp \
   /usr/include/stdc-predef.h \
-  ../planning/Dubins_Path/Dubins.hpp \
+  ../planning/Dubins_Path/Dubins.h \
   /usr/include/c++/7/iostream \
   /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \
@@ -1170,6 +1170,10 @@ bin/CMakeFiles/dubins_demo.dir/Dubins_Path/main.cpp.o: ../planning/Dubins_Path/m
 
 /usr/include/asm-generic/errno-base.h:
 
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/c++/7/bits/istream.tcc:
+
 /usr/include/c++/7/cwctype:
 
 /usr/include/linux/errno.h:
@@ -1234,8 +1238,6 @@ bin/CMakeFiles/dubins_demo.dir/Dubins_Path/main.cpp.o: ../planning/Dubins_Path/m
 
 /usr/include/c++/7/bits/cxxabi_forced.h:
 
-/usr/include/c++/7/bits/ostream_insert.h:
-
 /usr/include/c++/7/bits/allocator.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
@@ -1263,12 +1265,6 @@ bin/CMakeFiles/dubins_demo.dir/Dubins_Path/main.cpp.o: ../planning/Dubins_Path/m
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/ArrayBase.h:
-
-/usr/include/c++/7/bits/istream.tcc:
-
-/usr/include/x86_64-linux-gnu/asm/errno.h:
-
-../planning/Dubins_Path/Dubins.hpp:
 
 /usr/include/python3.6m/bytesobject.h:
 
@@ -1430,8 +1426,6 @@ bin/CMakeFiles/dubins_demo.dir/Dubins_Path/main.cpp.o: ../planning/Dubins_Path/m
 
 /usr/include/c++/7/bits/stringfwd.h:
 
-/usr/local/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h:
-
 /usr/include/x86_64-linux-gnu/c++/7/bits/gthr.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h:
@@ -1439,6 +1433,24 @@ bin/CMakeFiles/dubins_demo.dir/Dubins_Path/main.cpp.o: ../planning/Dubins_Path/m
 /usr/include/python3.6m/longintrepr.h:
 
 /usr/include/x86_64-linux-gnu/c++/7/bits/cpu_defines.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h:
+
+/usr/include/c++/7/bits/ostream_insert.h:
+
+../planning/Dubins_Path/Dubins.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/DenseBase.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/python3.6m/classobject.h:
+
+/usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h:
+
+/usr/include/c++/7/bits/concept_check.h:
 
 /usr/include/stdc-predef.h:
 
@@ -1547,16 +1559,6 @@ bin/CMakeFiles/dubins_demo.dir/Dubins_Path/main.cpp.o: ../planning/Dubins_Path/m
 /usr/local/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h:
 
 /usr/include/c++/7/bits/nested_exception.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/usr/include/python3.6m/classobject.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/arch/CUDA/PacketMathHalf.h:
-
-/usr/include/c++/7/bits/concept_check.h:
 
 /usr/include/python3.6m/namespaceobject.h:
 
@@ -1811,8 +1813,6 @@ bin/CMakeFiles/dubins_demo.dir/Dubins_Path/main.cpp.o: ../planning/Dubins_Path/m
 /usr/local/include/eigen3/Eigen/src/Core/Assign.h:
 
 /usr/local/include/eigen3/Eigen/src/Core/IO.h:
-
-/usr/local/include/eigen3/Eigen/src/Core/DenseBase.h:
 
 /usr/local/include/eigen3/Eigen/src/plugins/BlockMethods.h:
 

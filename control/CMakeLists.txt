@@ -19,4 +19,10 @@ target_link_libraries(pid_demo PRIVATE planning_control_auto)
 add_executable(pp_demo Pure_pursult/PurePursuit.cpp Pure_pursult/main.cpp)
 target_link_libraries(pp_demo PRIVATE planning_control_auto)
 
+# Stanely
+add_executable(stanely_demo Stanely/Stanely.cpp Stanely/main.cpp)
+target_link_libraries(stanely_demo PRIVATE planning_control_auto)
 
+#lqr
+add_executable(lqr_demo LQR/LQR.cpp LQR/main.cpp utils/MyReferencePath.cpp)
+target_link_libraries(lqr_demo PRIVATE planning_control_auto)

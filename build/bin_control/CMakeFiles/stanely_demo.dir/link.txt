@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/stanely_demo.dir/Stanely/Stanely.cpp.o CMakeFiles/stanely_demo.dir/Stanely/main.cpp.o -o stanely_demo  /usr/lib/x86_64-linux-gnu/libpython3.6m.so 

@@ -189,6 +189,82 @@ pp_demo/fast:
 	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pp_demo.dir/build.make bin_control/CMakeFiles/pp_demo.dir/build
 .PHONY : pp_demo/fast
 
+# Convenience name for target.
+bin_control/CMakeFiles/stanely_demo.dir/rule:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin_control/CMakeFiles/stanely_demo.dir/rule
+.PHONY : bin_control/CMakeFiles/stanely_demo.dir/rule
+
+# Convenience name for target.
+stanely_demo: bin_control/CMakeFiles/stanely_demo.dir/rule
+.PHONY : stanely_demo
+
+# fast build rule for target.
+stanely_demo/fast:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/stanely_demo.dir/build.make bin_control/CMakeFiles/stanely_demo.dir/build
+.PHONY : stanely_demo/fast
+
+# Convenience name for target.
+bin_control/CMakeFiles/lqr_demo.dir/rule:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin_control/CMakeFiles/lqr_demo.dir/rule
+.PHONY : bin_control/CMakeFiles/lqr_demo.dir/rule
+
+# Convenience name for target.
+lqr_demo: bin_control/CMakeFiles/lqr_demo.dir/rule
+.PHONY : lqr_demo
+
+# fast build rule for target.
+lqr_demo/fast:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/lqr_demo.dir/build.make bin_control/CMakeFiles/lqr_demo.dir/build
+.PHONY : lqr_demo/fast
+
+LQR/LQR.o: LQR/LQR.cpp.o
+.PHONY : LQR/LQR.o
+
+# target to build an object file
+LQR/LQR.cpp.o:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/lqr_demo.dir/build.make bin_control/CMakeFiles/lqr_demo.dir/LQR/LQR.cpp.o
+.PHONY : LQR/LQR.cpp.o
+
+LQR/LQR.i: LQR/LQR.cpp.i
+.PHONY : LQR/LQR.i
+
+# target to preprocess a source file
+LQR/LQR.cpp.i:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/lqr_demo.dir/build.make bin_control/CMakeFiles/lqr_demo.dir/LQR/LQR.cpp.i
+.PHONY : LQR/LQR.cpp.i
+
+LQR/LQR.s: LQR/LQR.cpp.s
+.PHONY : LQR/LQR.s
+
+# target to generate assembly for a file
+LQR/LQR.cpp.s:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/lqr_demo.dir/build.make bin_control/CMakeFiles/lqr_demo.dir/LQR/LQR.cpp.s
+.PHONY : LQR/LQR.cpp.s
+
+LQR/main.o: LQR/main.cpp.o
+.PHONY : LQR/main.o
+
+# target to build an object file
+LQR/main.cpp.o:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/lqr_demo.dir/build.make bin_control/CMakeFiles/lqr_demo.dir/LQR/main.cpp.o
+.PHONY : LQR/main.cpp.o
+
+LQR/main.i: LQR/main.cpp.i
+.PHONY : LQR/main.i
+
+# target to preprocess a source file
+LQR/main.cpp.i:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/lqr_demo.dir/build.make bin_control/CMakeFiles/lqr_demo.dir/LQR/main.cpp.i
+.PHONY : LQR/main.cpp.i
+
+LQR/main.s: LQR/main.cpp.s
+.PHONY : LQR/main.s
+
+# target to generate assembly for a file
+LQR/main.cpp.s:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/lqr_demo.dir/build.make bin_control/CMakeFiles/lqr_demo.dir/LQR/main.cpp.s
+.PHONY : LQR/main.cpp.s
+
 PID/PID.o: PID/PID.cpp.o
 .PHONY : PID/PID.o
 
@@ -285,6 +361,78 @@ Pure_pursult/main.cpp.s:
 	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pp_demo.dir/build.make bin_control/CMakeFiles/pp_demo.dir/Pure_pursult/main.cpp.s
 .PHONY : Pure_pursult/main.cpp.s
 
+Stanely/Stanely.o: Stanely/Stanely.cpp.o
+.PHONY : Stanely/Stanely.o
+
+# target to build an object file
+Stanely/Stanely.cpp.o:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/stanely_demo.dir/build.make bin_control/CMakeFiles/stanely_demo.dir/Stanely/Stanely.cpp.o
+.PHONY : Stanely/Stanely.cpp.o
+
+Stanely/Stanely.i: Stanely/Stanely.cpp.i
+.PHONY : Stanely/Stanely.i
+
+# target to preprocess a source file
+Stanely/Stanely.cpp.i:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/stanely_demo.dir/build.make bin_control/CMakeFiles/stanely_demo.dir/Stanely/Stanely.cpp.i
+.PHONY : Stanely/Stanely.cpp.i
+
+Stanely/Stanely.s: Stanely/Stanely.cpp.s
+.PHONY : Stanely/Stanely.s
+
+# target to generate assembly for a file
+Stanely/Stanely.cpp.s:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/stanely_demo.dir/build.make bin_control/CMakeFiles/stanely_demo.dir/Stanely/Stanely.cpp.s
+.PHONY : Stanely/Stanely.cpp.s
+
+Stanely/main.o: Stanely/main.cpp.o
+.PHONY : Stanely/main.o
+
+# target to build an object file
+Stanely/main.cpp.o:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/stanely_demo.dir/build.make bin_control/CMakeFiles/stanely_demo.dir/Stanely/main.cpp.o
+.PHONY : Stanely/main.cpp.o
+
+Stanely/main.i: Stanely/main.cpp.i
+.PHONY : Stanely/main.i
+
+# target to preprocess a source file
+Stanely/main.cpp.i:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/stanely_demo.dir/build.make bin_control/CMakeFiles/stanely_demo.dir/Stanely/main.cpp.i
+.PHONY : Stanely/main.cpp.i
+
+Stanely/main.s: Stanely/main.cpp.s
+.PHONY : Stanely/main.s
+
+# target to generate assembly for a file
+Stanely/main.cpp.s:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/stanely_demo.dir/build.make bin_control/CMakeFiles/stanely_demo.dir/Stanely/main.cpp.s
+.PHONY : Stanely/main.cpp.s
+
+utils/MyReferencePath.o: utils/MyReferencePath.cpp.o
+.PHONY : utils/MyReferencePath.o
+
+# target to build an object file
+utils/MyReferencePath.cpp.o:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/lqr_demo.dir/build.make bin_control/CMakeFiles/lqr_demo.dir/utils/MyReferencePath.cpp.o
+.PHONY : utils/MyReferencePath.cpp.o
+
+utils/MyReferencePath.i: utils/MyReferencePath.cpp.i
+.PHONY : utils/MyReferencePath.i
+
+# target to preprocess a source file
+utils/MyReferencePath.cpp.i:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/lqr_demo.dir/build.make bin_control/CMakeFiles/lqr_demo.dir/utils/MyReferencePath.cpp.i
+.PHONY : utils/MyReferencePath.cpp.i
+
+utils/MyReferencePath.s: utils/MyReferencePath.cpp.s
+.PHONY : utils/MyReferencePath.s
+
+# target to generate assembly for a file
+utils/MyReferencePath.cpp.s:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/lqr_demo.dir/build.make bin_control/CMakeFiles/lqr_demo.dir/utils/MyReferencePath.cpp.s
+.PHONY : utils/MyReferencePath.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -297,8 +445,16 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... lqr_demo"
 	@echo "... pid_demo"
 	@echo "... pp_demo"
+	@echo "... stanely_demo"
+	@echo "... LQR/LQR.o"
+	@echo "... LQR/LQR.i"
+	@echo "... LQR/LQR.s"
+	@echo "... LQR/main.o"
+	@echo "... LQR/main.i"
+	@echo "... LQR/main.s"
 	@echo "... PID/PID.o"
 	@echo "... PID/PID.i"
 	@echo "... PID/PID.s"
@@ -311,6 +467,15 @@ help:
 	@echo "... Pure_pursult/main.o"
 	@echo "... Pure_pursult/main.i"
 	@echo "... Pure_pursult/main.s"
+	@echo "... Stanely/Stanely.o"
+	@echo "... Stanely/Stanely.i"
+	@echo "... Stanely/Stanely.s"
+	@echo "... Stanely/main.o"
+	@echo "... Stanely/main.i"
+	@echo "... Stanely/main.s"
+	@echo "... utils/MyReferencePath.o"
+	@echo "... utils/MyReferencePath.i"
+	@echo "... utils/MyReferencePath.s"
 .PHONY : help
 
 

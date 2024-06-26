@@ -4,7 +4,7 @@
 bin/CMakeFiles/dwa_demo.dir/Dynamic_Window_Approach/DWA.cpp.o
  /home/lee/文档/02planning_control_auto/planning/Dynamic_Window_Approach/DWA.cpp
  /usr/include/stdc-predef.h
- /home/lee/文档/02planning_control_auto/planning/Dynamic_Window_Approach/DWA.hpp
+ /home/lee/文档/02planning_control_auto/planning/Dynamic_Window_Approach/DWA.h
  /usr/include/c++/7/iostream
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h
@@ -702,7 +702,7 @@ bin/CMakeFiles/dwa_demo.dir/Dynamic_Window_Approach/main.cpp.o
  /usr/include/c++/7/functional
  /usr/include/c++/7/bits/std_function.h
  /usr/include/c++/7/bits/refwrap.h
- /home/lee/文档/02planning_control_auto/planning/Dynamic_Window_Approach/DWA.hpp
+ /home/lee/文档/02planning_control_auto/planning/Dynamic_Window_Approach/DWA.h
  /usr/local/include/eigen3/Eigen/Dense
  /usr/local/include/eigen3/Eigen/Core
  /usr/local/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h

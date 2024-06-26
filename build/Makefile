@@ -304,6 +304,32 @@ pp_demo/fast:
 	$(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pp_demo.dir/build.make bin_control/CMakeFiles/pp_demo.dir/build
 .PHONY : pp_demo/fast
 
+#=============================================================================
+# Target rules for targets named stanely_demo
+
+# Build rule for target.
+stanely_demo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stanely_demo
+.PHONY : stanely_demo
+
+# fast build rule for target.
+stanely_demo/fast:
+	$(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/stanely_demo.dir/build.make bin_control/CMakeFiles/stanely_demo.dir/build
+.PHONY : stanely_demo/fast
+
+#=============================================================================
+# Target rules for targets named lqr_demo
+
+# Build rule for target.
+lqr_demo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lqr_demo
+.PHONY : lqr_demo
+
+# fast build rule for target.
+lqr_demo/fast:
+	$(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/lqr_demo.dir/build.make bin_control/CMakeFiles/lqr_demo.dir/build
+.PHONY : lqr_demo/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -346,11 +372,13 @@ help:
 	@echo "... bezier_demo"
 	@echo "... dubins_demo"
 	@echo "... dwa_demo"
+	@echo "... lqr_demo"
 	@echo "... main"
 	@echo "... pid_demo"
 	@echo "... pp_demo"
 	@echo "... rrt_demo"
 	@echo "... rs_demo"
+	@echo "... stanely_demo"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
