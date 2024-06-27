@@ -32,3 +32,7 @@ target_link_libraries(lqr_demo PRIVATE planning_control_auto)
 # mpc
 add_executable(mpc_demo MPC/mpc.cpp MPC/main.cpp utils/MyReferencePath.cpp)
 target_link_libraries(mpc_demo PRIVATE planning_control_auto OsqpEigen::OsqpEigen) #需要链接到Osqpeigen
+
+#mpc实现轨迹跟踪  利用cppad/ipopt
+add_executable(mpc_speed_demo MPC_Speed/mpc_speed.cpp MPC_Speed/main.cpp)
+target_link_libraries(mpc_speed_demo PRIVATE planning_control_auto ipopt)

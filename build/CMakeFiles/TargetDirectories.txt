@@ -24,6 +24,7 @@
 /home/lee/文档/02planning_control_auto/build/bin_control/CMakeFiles/stanely_demo.dir
 /home/lee/文档/02planning_control_auto/build/bin_control/CMakeFiles/lqr_demo.dir
 /home/lee/文档/02planning_control_auto/build/bin_control/CMakeFiles/mpc_demo.dir
+/home/lee/文档/02planning_control_auto/build/bin_control/CMakeFiles/mpc_speed_demo.dir
 /home/lee/文档/02planning_control_auto/build/bin_control/CMakeFiles/edit_cache.dir
 /home/lee/文档/02planning_control_auto/build/bin_control/CMakeFiles/rebuild_cache.dir
 /home/lee/文档/02planning_control_auto/build/bin_control/CMakeFiles/list_install_components.dir

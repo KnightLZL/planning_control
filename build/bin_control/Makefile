@@ -231,6 +231,20 @@ mpc_demo/fast:
 	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/mpc_demo.dir/build.make bin_control/CMakeFiles/mpc_demo.dir/build
 .PHONY : mpc_demo/fast
 
+# Convenience name for target.
+bin_control/CMakeFiles/mpc_speed_demo.dir/rule:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin_control/CMakeFiles/mpc_speed_demo.dir/rule
+.PHONY : bin_control/CMakeFiles/mpc_speed_demo.dir/rule
+
+# Convenience name for target.
+mpc_speed_demo: bin_control/CMakeFiles/mpc_speed_demo.dir/rule
+.PHONY : mpc_speed_demo
+
+# fast build rule for target.
+mpc_speed_demo/fast:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/mpc_speed_demo.dir/build.make bin_control/CMakeFiles/mpc_speed_demo.dir/build
+.PHONY : mpc_speed_demo/fast
+
 LQR/LQR.o: LQR/LQR.cpp.o
 .PHONY : LQR/LQR.o
 
@@ -326,6 +340,54 @@ MPC/mpc.s: MPC/mpc.cpp.s
 MPC/mpc.cpp.s:
 	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/mpc_demo.dir/build.make bin_control/CMakeFiles/mpc_demo.dir/MPC/mpc.cpp.s
 .PHONY : MPC/mpc.cpp.s
+
+MPC_Speed/main.o: MPC_Speed/main.cpp.o
+.PHONY : MPC_Speed/main.o
+
+# target to build an object file
+MPC_Speed/main.cpp.o:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/mpc_speed_demo.dir/build.make bin_control/CMakeFiles/mpc_speed_demo.dir/MPC_Speed/main.cpp.o
+.PHONY : MPC_Speed/main.cpp.o
+
+MPC_Speed/main.i: MPC_Speed/main.cpp.i
+.PHONY : MPC_Speed/main.i
+
+# target to preprocess a source file
+MPC_Speed/main.cpp.i:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/mpc_speed_demo.dir/build.make bin_control/CMakeFiles/mpc_speed_demo.dir/MPC_Speed/main.cpp.i
+.PHONY : MPC_Speed/main.cpp.i
+
+MPC_Speed/main.s: MPC_Speed/main.cpp.s
+.PHONY : MPC_Speed/main.s
+
+# target to generate assembly for a file
+MPC_Speed/main.cpp.s:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/mpc_speed_demo.dir/build.make bin_control/CMakeFiles/mpc_speed_demo.dir/MPC_Speed/main.cpp.s
+.PHONY : MPC_Speed/main.cpp.s
+
+MPC_Speed/mpc_speed.o: MPC_Speed/mpc_speed.cpp.o
+.PHONY : MPC_Speed/mpc_speed.o
+
+# target to build an object file
+MPC_Speed/mpc_speed.cpp.o:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/mpc_speed_demo.dir/build.make bin_control/CMakeFiles/mpc_speed_demo.dir/MPC_Speed/mpc_speed.cpp.o
+.PHONY : MPC_Speed/mpc_speed.cpp.o
+
+MPC_Speed/mpc_speed.i: MPC_Speed/mpc_speed.cpp.i
+.PHONY : MPC_Speed/mpc_speed.i
+
+# target to preprocess a source file
+MPC_Speed/mpc_speed.cpp.i:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/mpc_speed_demo.dir/build.make bin_control/CMakeFiles/mpc_speed_demo.dir/MPC_Speed/mpc_speed.cpp.i
+.PHONY : MPC_Speed/mpc_speed.cpp.i
+
+MPC_Speed/mpc_speed.s: MPC_Speed/mpc_speed.cpp.s
+.PHONY : MPC_Speed/mpc_speed.s
+
+# target to generate assembly for a file
+MPC_Speed/mpc_speed.cpp.s:
+	cd /home/lee/文档/02planning_control_auto/build && $(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/mpc_speed_demo.dir/build.make bin_control/CMakeFiles/mpc_speed_demo.dir/MPC_Speed/mpc_speed.cpp.s
+.PHONY : MPC_Speed/mpc_speed.cpp.s
 
 PID/PID.o: PID/PID.cpp.o
 .PHONY : PID/PID.o
@@ -512,6 +574,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... lqr_demo"
 	@echo "... mpc_demo"
+	@echo "... mpc_speed_demo"
 	@echo "... pid_demo"
 	@echo "... pp_demo"
 	@echo "... stanely_demo"
@@ -527,6 +590,12 @@ help:
 	@echo "... MPC/mpc.o"
 	@echo "... MPC/mpc.i"
 	@echo "... MPC/mpc.s"
+	@echo "... MPC_Speed/main.o"
+	@echo "... MPC_Speed/main.i"
+	@echo "... MPC_Speed/main.s"
+	@echo "... MPC_Speed/mpc_speed.o"
+	@echo "... MPC_Speed/mpc_speed.i"
+	@echo "... MPC_Speed/mpc_speed.s"
 	@echo "... PID/PID.o"
 	@echo "... PID/PID.i"
 	@echo "... PID/PID.s"

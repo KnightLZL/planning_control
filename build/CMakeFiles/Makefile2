@@ -117,6 +117,7 @@ bin_control/all: bin_control/CMakeFiles/pp_demo.dir/all
 bin_control/all: bin_control/CMakeFiles/stanely_demo.dir/all
 bin_control/all: bin_control/CMakeFiles/lqr_demo.dir/all
 bin_control/all: bin_control/CMakeFiles/mpc_demo.dir/all
+bin_control/all: bin_control/CMakeFiles/mpc_speed_demo.dir/all
 .PHONY : bin_control/all
 
 # Recursive "preinstall" directory target.
@@ -129,6 +130,7 @@ bin_control/clean: bin_control/CMakeFiles/pp_demo.dir/clean
 bin_control/clean: bin_control/CMakeFiles/stanely_demo.dir/clean
 bin_control/clean: bin_control/CMakeFiles/lqr_demo.dir/clean
 bin_control/clean: bin_control/CMakeFiles/mpc_demo.dir/clean
+bin_control/clean: bin_control/CMakeFiles/mpc_speed_demo.dir/clean
 .PHONY : bin_control/clean
 
 #=============================================================================
@@ -190,7 +192,7 @@ bin/CMakeFiles/astar_demo.dir/clean:
 bin/CMakeFiles/rrt_demo.dir/all:
 	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/rrt_demo.dir/build.make bin/CMakeFiles/rrt_demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/rrt_demo.dir/build.make bin/CMakeFiles/rrt_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lee/文档/02planning_control_auto/build/CMakeFiles --progress-num=35,36,37 "Built target rrt_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lee/文档/02planning_control_auto/build/CMakeFiles --progress-num=38,39,40 "Built target rrt_demo"
 .PHONY : bin/CMakeFiles/rrt_demo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -242,7 +244,7 @@ bin/CMakeFiles/dubins_demo.dir/clean:
 bin/CMakeFiles/rs_demo.dir/all:
 	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/rs_demo.dir/build.make bin/CMakeFiles/rs_demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f bin/CMakeFiles/rs_demo.dir/build.make bin/CMakeFiles/rs_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lee/文档/02planning_control_auto/build/CMakeFiles --progress-num=38,39,40 "Built target rs_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lee/文档/02planning_control_auto/build/CMakeFiles --progress-num=41,42,43 "Built target rs_demo"
 .PHONY : bin/CMakeFiles/rs_demo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -372,7 +374,7 @@ bin/CMakeFiles/apf_demo.dir/clean:
 bin_control/CMakeFiles/pid_demo.dir/all:
 	$(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pid_demo.dir/build.make bin_control/CMakeFiles/pid_demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pid_demo.dir/build.make bin_control/CMakeFiles/pid_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lee/文档/02planning_control_auto/build/CMakeFiles --progress-num=29,30,31 "Built target pid_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lee/文档/02planning_control_auto/build/CMakeFiles --progress-num=32,33,34 "Built target pid_demo"
 .PHONY : bin_control/CMakeFiles/pid_demo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -398,7 +400,7 @@ bin_control/CMakeFiles/pid_demo.dir/clean:
 bin_control/CMakeFiles/pp_demo.dir/all:
 	$(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pp_demo.dir/build.make bin_control/CMakeFiles/pp_demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/pp_demo.dir/build.make bin_control/CMakeFiles/pp_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lee/文档/02planning_control_auto/build/CMakeFiles --progress-num=32,33,34 "Built target pp_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lee/文档/02planning_control_auto/build/CMakeFiles --progress-num=35,36,37 "Built target pp_demo"
 .PHONY : bin_control/CMakeFiles/pp_demo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -424,7 +426,7 @@ bin_control/CMakeFiles/pp_demo.dir/clean:
 bin_control/CMakeFiles/stanely_demo.dir/all:
 	$(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/stanely_demo.dir/build.make bin_control/CMakeFiles/stanely_demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/stanely_demo.dir/build.make bin_control/CMakeFiles/stanely_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lee/文档/02planning_control_auto/build/CMakeFiles --progress-num=41,42,43 "Built target stanely_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lee/文档/02planning_control_auto/build/CMakeFiles --progress-num=44,45,46 "Built target stanely_demo"
 .PHONY : bin_control/CMakeFiles/stanely_demo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -494,6 +496,32 @@ mpc_demo: bin_control/CMakeFiles/mpc_demo.dir/rule
 bin_control/CMakeFiles/mpc_demo.dir/clean:
 	$(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/mpc_demo.dir/build.make bin_control/CMakeFiles/mpc_demo.dir/clean
 .PHONY : bin_control/CMakeFiles/mpc_demo.dir/clean
+
+#=============================================================================
+# Target rules for target bin_control/CMakeFiles/mpc_speed_demo.dir
+
+# All Build rule for target.
+bin_control/CMakeFiles/mpc_speed_demo.dir/all:
+	$(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/mpc_speed_demo.dir/build.make bin_control/CMakeFiles/mpc_speed_demo.dir/depend
+	$(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/mpc_speed_demo.dir/build.make bin_control/CMakeFiles/mpc_speed_demo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lee/文档/02planning_control_auto/build/CMakeFiles --progress-num=29,30,31 "Built target mpc_speed_demo"
+.PHONY : bin_control/CMakeFiles/mpc_speed_demo.dir/all
+
+# Build rule for subdir invocation for target.
+bin_control/CMakeFiles/mpc_speed_demo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lee/文档/02planning_control_auto/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bin_control/CMakeFiles/mpc_speed_demo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lee/文档/02planning_control_auto/build/CMakeFiles 0
+.PHONY : bin_control/CMakeFiles/mpc_speed_demo.dir/rule
+
+# Convenience name for target.
+mpc_speed_demo: bin_control/CMakeFiles/mpc_speed_demo.dir/rule
+.PHONY : mpc_speed_demo
+
+# clean rule for target.
+bin_control/CMakeFiles/mpc_speed_demo.dir/clean:
+	$(MAKE) $(MAKESILENT) -f bin_control/CMakeFiles/mpc_speed_demo.dir/build.make bin_control/CMakeFiles/mpc_speed_demo.dir/clean
+.PHONY : bin_control/CMakeFiles/mpc_speed_demo.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

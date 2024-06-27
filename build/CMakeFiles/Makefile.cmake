@@ -76,4 +76,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "bin_control/CMakeFiles/stanely_demo.dir/DependInfo.cmake"
   "bin_control/CMakeFiles/lqr_demo.dir/DependInfo.cmake"
   "bin_control/CMakeFiles/mpc_demo.dir/DependInfo.cmake"
+  "bin_control/CMakeFiles/mpc_speed_demo.dir/DependInfo.cmake"
   )
